@@ -16,16 +16,14 @@ import Footer from './footer/Footer'
 import Nav from './navBar/NavBar'
 export default function Home() {
     return (
-
-    
         <div className="Home">
               <Nav />  
+        
             <div className="smallImg">
                 <img src={TmsDemImage} />
             </div>
             <div className="slideImage">
                 <img src={ImgSlide} />
-
                 <div className="titleSlide">
                     <h1> Nos</h1>
                     <h2> déménageurs</h2>
@@ -33,22 +31,16 @@ export default function Home() {
                     <h1 className="votre"> votre</h1>
                     <h2 className="demenagement"> déménagement</h2>
                 </div>
-
-
-
             </div>
-
-
 
             <div className="textFiled">
                 <p>
                     L’envie de déménager résulte dans 95% des cas d'un désir profond de changement
-                    grâce auquel vous pouvez repartir du bon pied à la conquête de nouvelles opportunités pour une vie prospère. TMS-DEM vous aide à faire le premier pas en transportant vos affaires en toute sécurité partout en France ou dans les quatres coins du monde.
-
+                    grâce auquel vous pouvez repartir du bon pied à la conquête de nouvelles opportunités 
+                    pour une vie prospère. TMS-DEM vous aide à faire le premier pas en transportant vos affaires 
+                    en toute sécurité partout en France ou dans les quatres coins du monde.
                 </p>
             </div>
-
-
 
             <div className="servicesTMSDEM">
                 <div className="serviceContent">
@@ -58,35 +50,26 @@ export default function Home() {
                             <img src={Pro} className="proimg" />
                         </div>
                     </div>
-
                     <div className="serviceContainer">
-
                         <h2> Déménagement
                             Étudiant </h2>
                         <div className="imgContent Studentimgs">
                             <img src={Etudiant} className="iconStudent" />
                         </div>
-
                     </div>
-
                     <div className="serviceContainer">
-
                         <h2> Déménagement
                             longue distance </h2>
                         <div className="imgContent Studentimgs">
                             <img src={Camion} className="iconStudent" />
                         </div>
-
-
                     </div>
-
                     <div className="serviceContainer">
                         <h2> Déménagement
                             international</h2>
                         <div className="imgContent Studentimgs">
                             <img src={Avion} className="iconStudent" />
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -98,81 +81,51 @@ export default function Home() {
                     <h2> Déménagement Maintenant </h2>
                 </div>
             </div>
-
-
-
-
-
-
             <div className="planificationTimeLine">
-
                 <div className="planificationLeftSide">
                     <img src={PlanificationTimeLine} />
-
                     <div className="buttonBox">
                         <div>  Je déménage  </div>
                     </div>
                 </div>
-
-
                 <div className="planificationRightSide">
                     <div className="step">
-
                         <div className="descriptionPlanification">
                             <div> Personnalisez en quelques clics votre déménagement</div>
                         </div>
-
                         <div className="illustration">
                             <div> <img src={Icon_Plan} /> </div>
                         </div>
-
                     </div>
-
                     <div className="step">
-
                         <div className="descriptionPlanification">
                             <div> Précisez la date et l’heure qui vous conviennent</div>
                         </div>
-
                         <div className="illustration">
                             <div> <img src={Step2} /> </div>
                         </div>
-
-
                     </div>
                     <div className="step">
-
-
                         <div className="descriptionPlanification text3">
                             <div>  Jour J : nos déménageurs seront en place pour transporter vos affaires jusqu’à votre nouvelle déstination</div>
                         </div>
-
                         <div className="illustration">
                             <div> <img src={Step3} /> </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
-
-
             <div className="buttonAction">
-
                 <div className="button">
                     <button className="button2"> Boutique  </button>
                 </div>
-
                 <div className="button">
                     <button > Location espace stockage </button>
                 </div>
-
             </div>
-
 
             <div className="testimonial">
                 <h1> Ils témoignent</h1>
-
                 <div className="slider">
                     <div className="controllButton">
                         <div>
@@ -181,25 +134,19 @@ export default function Home() {
                     </div>
                     <div className="sliderContent">
                         <div className="stars">
-
                             <div> <img src={Trace} /></div>
                             <div> <img src={Trace} /></div>
                             <div> <img src={Trace} /></div>
                             <div> <img src={Trace} /></div>
                             <div> <img src={Trace} /></div>
-
-
                         </div>
-
                         <div className="testimonialName">
                             <div> Lina Fakhoury </div>
                         </div>
                         <div className="testimonialText">
                             <div> Surprise très positive! Un service rapide, efficace. Je recommande! </div>
-
                         </div>
                     </div>
-
                     <div className="controllButton">
                         <div>
                             <p> / </p>
@@ -210,6 +157,5 @@ export default function Home() {
 
             <Footer  className="footerComponent"/>
         </div>
-
     )
 }
