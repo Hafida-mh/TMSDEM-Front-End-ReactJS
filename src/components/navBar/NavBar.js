@@ -28,88 +28,65 @@ export default function NavBar() {
 
   
     return (
-      <div className="Nav">
+<div className="Nav">
      {
-<div className="navTop"> 
-<div className="navTopInfo">
-
-<div className="navitemTop"> 
-<div> <img src={Phone} className="phonetopNav"/></div>
-<div className="navText"> +33 1 41 77 11 32</div>
-</div>
-
-<div className="navitemTop navTopemailText"> 
-<div className="emaill">  <img src={Email} className="emailImg" /></div>
-<div className="navText "> contact@tms-dem.com</div>
-</div>
-
-<div className="navitemTop navTopGps"> 
-<div className="navigation">  <img src={Cursor} className="cursor" /> </div>
-<div className="navText"> GPS </div>
-</div>
-
-
-<div className="navitemTop"> 
-<div>  <img src={SAV} className="savImg" /></div>
-<div className="navText savcontact"> Service client 7j/7 </div>
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-}
-
- <div className="navContainer">
-<div className="logoContainer">
-  <img src={Logo} />
+    <div className="navTop"> 
+         <div className="navTopInfo">
+             <div className="navitemTop"> 
+                 <div> 
+                      <img src={Phone} className="phonetopNav"/>
+                  </div>
+                  <div className="navText"> +33 1 41 77 11 32 </div>
+                 </div>
+                 <div className="navitemTop navTopemailText"> 
+                    <div className="emaill">  <img src={Email} className="emailImg" /> </div>
+                    <div className="navText "> contact@tms-dem.com </div>
+                  </div>
+                <div className="navitemTop navTopGps"> 
+                    <div className="navigation">  <img src={Cursor} className="cursor" /> </div>
+                    <div className="navText"> GPS </div>
+                </div>
+                <div className="navitemTop"> 
+                    <div>  
+                        <img src={SAV} className="savImg" /> 
+                     </div>
+                <div className="navText savcontact"> Service client 7j/7 </div>
+            </div>
+         </div>
+      </div>}
+      <div className="navContainer">
+          <div className="logoContainer">
+            <img src={Logo} />
+          </div>
+          <div className="navItem"> 
+          <div className="item"> Accueil </div>
+          <div className="item"> TMS-DEM</div>
+          <div className="item"> Nos services </div>
+          <div className="item"> Boutique</div>
+          <div className="item"> Contact </div>
+          <div className="btn-devis largeMenu">
+          <button> Demander un devis</button>
+       </div>
+       <div onClick={() => clickOpenburgerMenu()}><i class="fas fa-bars"></i>
+     </div>
    </div>
-<div className="navItem"> 
-
-<div className="item"> Accueil</div>
-
-<div className="item"> TMS-DEM</div>
-<div className="item"> Nos services </div>
-<div className="item"> Boutique</div>
-<div className="item"> Contact </div>
-<div className="btn-devis largeMenu">
-  <button> Demander un devis</button>
-</div>
-
-
-<div onClick={() => clickOpenburgerMenu()}><i class="fas fa-bars"></i>
-
-</div>
-
-</div>
- </div>
-
-   
-
-  { fade && <div className="navSmallScreen">
-   <div className="item"> Accueil</div>
-
-<div className="item"> TMS-DEM</div>
-<div className="item"> Nos services </div>
-<div className="item"> Boutique</div>
-<div className="item"> Contact </div>
-<div className="btn-devis">
-  <button> Demander un devis</button>
-</div>
-
-<div className="itemContainerInfo"> 
-<div className="item emailAdress">  <i class="fas fa-envelope"></i> contact@tms-dem.com </div>
-<div className="item gps">  <i class="fas fa-map-marker-alt"></i> GPS </div>
-</div>
-   </div>
-
-}
   </div>
+  { fade && <div className="navSmallScreen">
+        <div className="item"> Accueil </div>
+        <div className="item"> TMS-DEM </div>
+        <div className="item"> Nos services </div>
+         <div className="item"> Boutique</div>
+        <div className="item"> Contact </div>
+        <div className="btn-devis">
+        <button> Demander un devis</button>
+   </div>
+
+    <div className="itemContainerInfo"> 
+        <div className="item emailAdress">  <i class="fas fa-envelope"></i> contact@tms-dem.com </div>
+        <div className="item gps">  <i class="fas fa-map-marker-alt"></i> GPS </div>
+    </div>
+  </div>
+}
+</div>
     )
 }
