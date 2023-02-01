@@ -5,7 +5,7 @@
     letter-spacing: 1px;
 }
  
-.footer{
+.footer {
     border: 1px hidden black;
     height: auto;
     width: 100%;
@@ -16,7 +16,7 @@
     margin-top: 100px;
 }
 
-.footerleft{
+.footerleft {
     border: 1px hidden black;
     height: 300px;
     width: 100%;
@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 
-.tmsdemlogo{
+.tmsdemlogo {
     position: absolute;
     right: 80px;
     border: 1px hidden white;
@@ -37,47 +37,42 @@
     justify-content: center;
 }
 
-
-.tmsdemlogo img{
-
+.tmsdemlogo img {
     height: 280px;
     width: 390px;
 }
-.footerposition, .footernumber, .footeremail, .footerclientservice{
+
+.footerposition, .footernumber, .footeremail, .footerclientservice {
     border: 1px hidden red;
     height: auto;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
-
 }
 
-.addressText{
+.addressText {
     font-size: 1.4em;
     color: white;
     width: 600px;
     text-align: left;
 }
 
-
 .footerIcones +.addressText {
     margin: 10px;
 }
 
-
 .fas {
     font-size:1.5em;
     color: white;
- margin-left: 78px;
+    margin-left: 78px;
 }
 
-.fas.fa-envelope{
-margin-top: 5px;
+.fas.fa-envelope {
+    margin-top: 5px;
 }
 
-.sav, .phone{
+.sav, .phone {
     width: 2em;
     margin-left:  78px;
 }
@@ -88,25 +83,23 @@ margin-top: 5px;
 
 
 @media screen and (max-width : 772px) {
-    .fas{
-        margin-left: 10px;
-    }
-
-    .sav, .phone{
-        margin-left:  10px;
-    }
+.fas{
+    margin-left: 10px;
 }
 
+.sav, .phone {
+    margin-left:  10px;
+    }
+}
 
 @media screen and (max-width : 516px) {
-    .tmsdemlogo{
-        display: none;
+.tmsdemlogo{
+    display: none;
     }
 }
 
-
 @media screen and (max-width : 424px) {
-    .footerleft{
-        height: auto;
-    }
+.footerleft {
+    height: auto;
+}
 }
